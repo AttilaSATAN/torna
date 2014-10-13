@@ -1,0 +1,10 @@
+<section class="container" data-ng-controller="DerslerimController">
+     <h4 class="text-success">Eğitim Konular</h2>
+    <accordion close-others="true">
+        <accordion-group is-open="class.open" data-ng-repeat="class in classes" >
+            <accordion-heading>
+                {{class.title}} <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': class.open, 'glyphicon-chevron-right': !class.open}"></i>
+            </accordion-heading>
+        </accordion-group>
+      </accordion>
+  </section>

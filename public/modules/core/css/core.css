@@ -1,0 +1,58 @@
+.content {
+    margin-top: 50px;
+}
+.undecorated-link:hover {
+    text-decoration: none;
+}
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak {
+    display: none !important;
+}
+.ng-invalid.ng-dirty {
+    border-color: #FA787E;
+}
+.ng-valid.ng-dirty {
+    border-color: #78FA89;
+}
+.left-menu {
+    position: fixed;
+    padding-top:51px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 80px;
+    overflow: visible;
+    background: #333333;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+.background-color-1 {
+    background-color: #1A4266;
+}
+.side-menu-button{
+    color:#e9e9e9;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    font-size: 9px;
+    font-weight: 700;
+}
+.side-menu-button > h3{
+    margin-bottom: 5px;
+    font-size: 34px;
+}
+.side-menu-button .side-menu-text{
+    
+}
+.side-menu-button:hover, .side-menu-button:focus{
+    color:white;
+    text-decoration: none;
+}
+ .panel-title a { 
+     cursor: pointer; 
+     color:#d0e5ef;
+ }

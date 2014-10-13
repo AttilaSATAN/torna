@@ -1,0 +1,19 @@
+<section data-ng-controller="AdaysController" data-ng-init="find()">
+    <div class="page-header">
+        <h1>Adays</h1>
+    </div>
+    <div class="list-group">
+        <a data-ng-repeat="aday in adays" data-ng-href="#!/adays/{{aday._id}}" class="list-group-item">
+			<small class="list-group-item-text">
+				Posted on
+				<span data-ng-bind="aday.created | date:'medium'"></span>
+				by
+				<span data-ng-bind="aday.user.displayName"></span>
+			</small>
+			<h4 class="list-group-item-heading" data-ng-bind="aday.name"></h4>
+        </a>
+    </div>
+    <div class="alert alert-warning text-center" data-ng-hide="!adays.$resolved || adays.length">
+    	No Adays yet, why don't you <a href="/#!/adays/create">create one</a>?
+    </div>
+</section>

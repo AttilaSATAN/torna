@@ -1,0 +1,29 @@
+<section data-ng-controller="PanelimsController">
+    <div class="left-menu background-color-1">
+        <a href="/#!/panelim/derslerim" class="side-menu-button text-center">
+            <h3><span class="glyphicon glyphicon-book"></span></h3>
+            <p class="side-menu-text">DERSLERİM</p>
+        </a>
+        <a href="/#!/panelim/simulasyon" class="side-menu-button text-center">
+            <h3><span class="glyphicon glyphicon-play"></span></h3>
+            <p class="side-menu-text">SİMÜLASYON</p>
+        </a>
+        <a href="/#!/panelim/soru-cevap" class="side-menu-button text-center">
+            <h3><span class="glyphicon">?</span></h3>
+            <p class="side-menu-text">SORU / CEVAP</p>
+        </a>
+<!--
+        <a href="/#!/panelim/derslerim" class="side-menu-button text-center">
+            <h3><span class="glyphicon glyphicon-book"></span></h3>
+            <p class="side-menu-text">DERSLERİM</p>
+        </a>
+-->
+    </div>
+    <div class="page-header">
+        <h1>Panelim</h1>
+    </div>
+    <div ui-view="panelim">
+        <h4>Hoşgeldiniz!</h4>
+    </div>
+
+</section>

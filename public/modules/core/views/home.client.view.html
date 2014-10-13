@@ -1,0 +1,19 @@
+<section data-ng-controller="HomeController" class="container-fluid">
+
+    <div class="col-md-12">
+        <ul rn-carousel rn-carousel-controls="true" rn-carousel-auto-slide="true" style="height:237px;">
+            <li ng-repeat="slide in slides" style="height:237px;">
+                <div class="layer">
+                    <img ng-src="{{slide.image}}" alt="" class="img-responsive">
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="col-md-4 pull-right">
+        <a class="twitter-timeline" href="https://twitter.com/hashtag/ostim" data-widget-id="521660511289499648">#ostim Tweet</a>
+    </div>
+
+</section>
